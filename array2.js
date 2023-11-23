@@ -26,3 +26,5 @@ let var1=200
 let var2=300
 let var3=400
 console.log(Array.of(var1,var2,var3))
+//Array.of() can be used to create an array using variabeles
+console.log(Array.from({name:"Nick"}))
