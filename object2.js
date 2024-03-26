@@ -65,5 +65,17 @@ const{coursename}=course
 
 console.log(coursename)
 const{courseinstructor:instructor}=course
+//we can use the name of our choice if we want to shorten the name, using double dots{courseinstructo:ins}
 console.log(instructor)
- 
+const bumbleuser={
+    name:{
+        fullname:{
+            firstname:"nick",
+            lastname:"G"
+        }
+    },
+    email:"Lightnigs@gmail.com"
+}
+Object.freeze(bumbleuser)
+const{name:namee}=bumbleuser
+console.log(namee)
